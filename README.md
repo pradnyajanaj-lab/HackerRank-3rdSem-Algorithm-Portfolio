@@ -49,4 +49,81 @@ Each problem includes the solution code, an explanation of the approach, step-by
 [View Solution](02-Birthday-Cake-Candles/birthday-cake-candles.cpp)
 [View Documentation](02-Birthday-Cake-Candles/birthday-cake-candles.md)
 
-## Problem 3 – Insertion Sor
+## Problem 3 – Insertion Sort – Part 1
+
+**Approach:** The last element is treated as the value to insert into the already sorted portion of the array. Larger elements are shifted one position to the right until the correct position is found.
+
+**Complexity:**
+
+* Time: O(n) in the worst case
+* Auxiliary Space: O(1)
+
+[View Solution](03-Insertion-Sort-Part-1/insertion-sort-part-1.cpp)
+
+[View Documentation](03-Insertion-Sort-Part-1/insertion-sort-part-1.md)
+
+## Problem 4 – Intro to Tutorial Challenges
+
+**Approach:** Use binary search on the sorted array. Compare the target value with the middle element and eliminate half of the remaining search space after each comparison.
+
+**Complexity:**
+
+* Time: O(log n)
+* Auxiliary Space: O(1)
+
+[View Solution](04-Binary-Search/binary-search.cpp)
+
+[View Documentation](04-Binary-Search/binary-search.md)
+
+## Problem 5 – Mark and Toys
+
+**Approach:** Sort the toy prices in ascending order and purchase the cheapest toys first until the available budget is exhausted.
+
+**Complexity:**
+
+* Time: O(n log n)
+* Auxiliary Space: O(1)
+
+[View Solution](05-Mark-and-Toys/mark-and-toys.cpp)
+
+[View Documentation](05-Mark-and-Toys/mark-and-toys.md)
+
+## HackerRank Evidence
+
+The following screenshots provide evidence of the accepted HackerRank submissions and the Problem Solving badge.
+
+### 1. Mini-Max Sum
+
+[View Accepted Submission](evidence/01-Mini-Max-Sum-Accepted.png)
+
+### 2. Birthday Cake Candles
+
+[View Accepted Submission](evidence/02-Birthday-Cake-Candles-Accepted.png)
+
+### 3. Insertion Sort – Part 1
+
+[View Accepted Submission](evidence/03-Insertion-Sort-Part-1-Accepted.png)
+
+### 4. Binary Search – Intro to Tutorial Challenges
+
+[View Accepted Submission](evidence/04-Binary-Search-Accepted.png)
+
+### 5. Mark and Toys
+
+[View Accepted Submission](evidence/05-Mark-and-Toys-Accepted.png)
+
+### 6. HackerRank Problem Solving Badge
+
+[View Badge Evidence](evidence/06-Problem-Solving-Badge.png)
+
+## HackerRank Profile
+
+[Visit HackerRank Profile](https://www.hackerrank.com/profile/pradnyajanaj)
+
+## Learning Outcomes
+
+Through these problems, I practiced array traversal, searching, sorting, insertion techniques, greedy problem solving, and algorithmic complexity analysis. The activity also helped me organize coding solutions and evidence in a GitHub portfolio.
+
+## Conclusion
+
+This portfolio demonstrates my practice with fundamental algorithms using C++20. The repository includes solution code, documentation, complexity analysis, and HackerRank submission evidence for all five required problems.
